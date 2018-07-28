@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:padding="20dp"
+  >
+  
+    
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content"
+    android:layout_weight="1">
+    
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content"  android:layout_gravity="center" android:stretchColumns="1">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+             <TextView android:text="@string/product_price_label" android:gravity="right" android:textStyle="bold" android:paddingRight="10dp" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content"></TextView>
+
+             <TextView
+                 android:id="@+id/euroLabel1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="0.00 EUR"
+                 android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+             <TextView android:text="@string/product_name_label"  android:gravity="right" android:textStyle="bold"  android:paddingRight="10dp"  android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_height="wrap_content"></TextView>
+
+             <EditText
+                 android:id="@+id/productNameText1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" >
+
+                 <requestFocus />
+             </EditText>
+
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+             <TextView android:text="@string/comment_label"  android:gravity="right" android:textStyle="bold"  android:paddingRight="10dp"  android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content"></TextView>
+
+             <EditText
+                 android:id="@+id/commentText1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:inputType="textMultiLine" />
+
+        </TableRow>
+        
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+             <TextView android:text="@string/town_name_label"  android:gravity="right" android:textStyle="bold"  android:paddingRight="10dp"  android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content"></TextView>
+
+             <EditText
+                 android:id="@+id/townNameText1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+
+        </TableRow>
+        
+        
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+             <TextView android:text="@string/store_brand_label"  android:gravity="right" android:textStyle="bold"  android:paddingRight="10dp"  android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content"></TextView>
+
+             <EditText
+                 android:id="@+id/storeBrandText1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+
+        </TableRow>
+        
+         <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content">
+             <TextView android:text="@string/country_name_label"  android:gravity="right" android:textStyle="bold"  android:paddingRight="10dp"  android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_height="wrap_content"></TextView>
+
+             <Spinner
+                 android:id="@+id/countryName1"
+                 android:entries="@array/euro_countries"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" />
+
+        </TableRow>
+        
+    
+        
+        <TableRow android:id="@+id/tableRow7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <TextView android:text="@string/add_photo_label" android:gravity="right" android:textStyle="bold" android:paddingRight="10dp" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView1" android:layout_height="wrap_content"></TextView>
+            
+            <CheckBox
+                android:id="@+id/tweetPhotoCheck1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            
+        </TableRow>
+    </TableLayout>
+    
+    </ScrollView>
+    
+    <LinearLayout android:paddingTop="10dp"  android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+        <Button android:text="Odeslat" android:id="@+id/tweet_yes_label" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"></Button>
+        <Button android:text="Storno" android:id="@+id/tweet_no_label" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    
+    
+</LinearLayout>

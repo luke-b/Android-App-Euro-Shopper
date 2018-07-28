@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center_horizontal|center_vertical"
+  android:id="@+id/rateDialog1"
+  android:padding="10dp"
+  >
+  
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="wrap_content"  android:padding="5dp" android:layout_height="wrap_content" android:layout_gravity="center">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView  android:gravity="right" android:paddingRight="10dp"  android:textStyle="bold" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="@string/currency_label" android:layout_gravity="right" android:layout_width="wrap_content"></TextView>
+            <TextView android:id="@+id/currency_pair_label" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text=""  android:layout_width="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView  android:gravity="right" android:paddingRight="10dp"  android:textStyle="bold"  android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="@string/rate_label" android:layout_width="wrap_content" android:layout_gravity="right"></TextView>
+            <TextView android:id="@+id/current_rate_label" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text=""  android:layout_width="wrap_content"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView  android:gravity="right" android:paddingRight="10dp"  android:textStyle="bold"  android:id="@+id/textView3" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text="@string/date_label" android:layout_width="wrap_content"></TextView>
+            <TextView android:id="@+id/rate_date_label" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:text=""  android:layout_width="wrap_content"></TextView>
+        </TableRow>
+        
+    </TableLayout>
+    
+    <Button android:layout_weight="1" android:text="@string/change_rate_button" android:id="@+id/foreign_manual_input" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+   
+    <Button android:layout_weight="1"  android:text="@string/download_rate_button" android:id="@+id/foreign_auto_input" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+    
+    <Button android:text="@string/ok_button" android:id="@+id/rate_cancel_button" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+  
+    
+</LinearLayout>

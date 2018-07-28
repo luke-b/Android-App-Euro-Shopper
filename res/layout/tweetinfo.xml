@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="5px">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="15px"
+        android:textStyle="bold"
+        android:text="Novinka pro Vás!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+      
+        android:text="Stáhněte si perfektní doplněk\nk Vaší Euro kalkulačce:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:paddingBottom="15px"
+        android:textStyle="bold"
+        android:text="Záznamník Osobních Výdajů"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+
+    <Button android:id="@+id/marketJump" android:background="@drawable/adbanner" android:text="" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+ <LinearLayout android:paddingTop="10dp" android:layout_marginTop="10dip" android:padding="10px" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content">
+   
+		<Button
+        android:id="@+id/tweetInfoOk"
+        android:layout_width="0dp" android:layout_weight="1" 
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/yellowbutton"
+        android:padding="10px"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold"
+        android:text="Ok" />
+		
+		<Button
+        android:id="@+id/tweetInfoMore"
+        android:layout_width="0dp" android:layout_weight="1" 
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/yellowbutton"
+        android:padding="10px"
+        android:textStyle="bold"
+        android:text="Chci to!" />
+
+   </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Euro Einkauf Kalkulator</string>
+    <string name="please_enter_value">Bitte, Währungskurs eingeben</string>
+    <string name="rate_is_being_downloaded">Währungskurs wird herunterladen …</string>
+    <string name="current_rate">Währungskurs</string>
+    <string name="are_you_sure">Sind Sie sicher?</string>
+    <string name="download_rate_from_internet">Währungskurs aus dem Internet herunterladen?</string>
+    <string name="yes_button">Ja</string>
+    <string name="no_button">Nein</string>
+    <string name="shopping_cart_label">Ihr Einkaufskorb</string>
+    <string name="ready_to_delete_shopping_cart">Wollen Sie Einkaufskorb löschen?</string>
+    <string name="unable_to_store_current_rate">Währungskurs könnte nicht gespeichert werden!</string>
+    <string name="rate_label">Währungskurs:</string>
+    <string name="was_saved_label">wurde gespeichert.</string>
+    <string name="of_date_label">Datum</string>
+    <string name="sum_label">Summe</string>
+    <string name="subtract_item_label">Wert abrechnen</string>
+    <string name="rate_was_stored">Währungskurs wurde gespeichert …</string>
+    <string name="rate_was_found">Währungskurs aktualisiert.</string>
+    <string name="rate_not_found">Währungskurs nicht gefunden ...</string>
+    <string name="data_unavailable">Daten sind nich erreichbar ...</string>
+    <string name="ok_label">Ok</string>
+    <string name="delete_whole_cart_button">Einkaufskorb löschen</string>
+    <string name="subtract_label">Wert abrechnen</string>
+    <string name="currency_label">Währung:</string>
+    <string name="date_label">Datum:</string>
+    <string name="change_rate_button">Währungskurs einfügen</string>
+    <string name="download_rate_button">Währungskurs herunterladen</string>
+    <string name="ok_button">Ok</string>
+    <string name="apply_label">Benutzen</string>
+    <string name="cancel_label">Zurück</string>
+    <string name="welcome_string">Herzlich willkommen!</string>
+    <string name="rate_enquiry_method">Wählen Sie bitte die Aktualisierung:</string>
+    <string name="internet_channel">Internet</string>
+    <string name="manual_channel">Manuell</string>
+    
+     <string-array name="euro_countries">
+    	<item>Germany</item>
+		<item>Austria</item>
+		<item>Slovakia</item>
+		<item>Spain</item>    
+		<item>Greece</item>
+		<item>France</item>
+		<item>Italy</item>
+		<item>Belgium</item>
+		<item>Netherland</item>
+		<item>Ireland</item>
+		<item>Portugal</item>
+		<item>Luxembourg</item>
+		<item>Cyprus</item>
+		<item>Estonia</item>
+		<item>Malta</item>
+		<item>Finland</item>
+		<item>Slovenia</item>
+    </string-array>
+</resources>

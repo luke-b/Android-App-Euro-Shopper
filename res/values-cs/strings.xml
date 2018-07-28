@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Euro Kalkulačka na nákup</string>
+    <string name="please_enter_value">Prosím, zadejte hodnotu</string>
+    <string name="rate_is_being_downloaded">Stahuji kurz z internetu ...</string>
+    <string name="current_rate">Aktuální kurz</string>
+    <string name="are_you_sure">Jste si jist?</string>
+    <string name="download_rate_from_internet">Přejete si stáhnout aktuální kurz z internetu?</string>
+    <string name="yes_button">Ano</string>
+    <string name="no_button">Ne</string>
+    <string name="shopping_cart_label">Nákupní košík</string>
+    <string name="ready_to_delete_shopping_cart">Přejete si vymazat celý nákup?</string>
+    <string name="unable_to_store_current_rate">Nelze uložit aktuální kurz.</string>
+    <string name="rate_label">Kurz:</string>
+    <string name="was_saved_label">byl uložen.</string>
+    <string name="of_date_label">ze dne</string>
+    <string name="sum_label">total</string>
+    <string name="subtract_item_label">Odečíst položku</string>
+    <string name="rate_was_stored">Kurz byl uložen ...</string>
+    <string name="rate_was_found">Kurz nalezen</string>
+    <string name="rate_not_found">Kurz nebyl nalezen ...</string>
+    <string name="data_unavailable">Data nejsou dostupná ...</string>
+    <string name="ok_label">Ok</string>
+    <string name="delete_whole_cart_button">Smazat celý nákup</string>
+    <string name="subtract_label">Odečíst položku</string>
+    <string name="currency_label">Měna:</string>
+    <string name="date_label">Datum:</string>
+    <string name="change_rate_button">Upravit kurz</string>
+    <string name="download_rate_button">Stáhnout kurz</string>
+    <string name="ok_button">Ok</string>
+    <string name="apply_label">Použít</string>
+    <string name="cancel_label">Storno</string>
+    <string name="welcome_string">Srdečně Vás Vítáme!</string>
+    <string name="rate_enquiry_method">Prosím, zvolte způsob získání kurzu :</string>
+    <string name="internet_channel">z Internetu</string>
+    <string name="manual_channel">manuálně</string>
+    
+     <string-array name="euro_countries">
+    	<item>Německo</item>
+		<item>Rakousko</item>
+		<item>Slovensko</item>
+		<item>Španělsko</item>    
+		<item>Řecko</item>
+		<item>Francie</item>
+		<item>Itálie</item>
+		<item>Belgie</item>
+		<item>Nizozemsko</item>
+		<item>Irsko</item>
+		<item>Portugalsko</item>
+		<item>Lucembursko</item>
+		<item>Kypr</item>
+		<item>Estonsko</item>
+		<item>Malta</item>
+		<item>Finsko</item>
+		<item>Slovinsko</item>
+    </string-array>
+</resources>

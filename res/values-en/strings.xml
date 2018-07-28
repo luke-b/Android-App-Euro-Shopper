@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Euro Shopping Calculator</string>
+    <string name="please_enter_value">Please, enter value</string>
+    <string name="rate_is_being_downloaded">Downloading rate ...</string>
+    <string name="current_rate">Actual rate</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="download_rate_from_internet">Do you want to download rate from the internet?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="shopping_cart_label">Shopping cart</string>
+    <string name="ready_to_delete_shopping_cart">Do you want to empty the shopping cart?</string>
+    <string name="unable_to_store_current_rate">Unable to store current rate.</string>
+    <string name="rate_label">Rate:</string>
+    <string name="was_saved_label">was stored.</string>
+    <string name="of_date_label">of date</string>
+    <string name="sum_label">total</string>
+    <string name="subtract_item_label">Subtract value</string>
+    <string name="rate_was_stored">Rate was stored ...</string>
+    <string name="rate_was_found">Rate found</string>
+    <string name="rate_not_found">Rate not found ...</string>
+    <string name="data_unavailable">Data unavailable ...</string>
+    <string name="ok_label">Ok</string>
+    <string name="delete_whole_cart_button">Empty shopping cart</string>
+    <string name="subtract_label">Subtract value</string>
+    <string name="currency_label">Currency:</string>
+    <string name="date_label">Date:</string>
+    <string name="change_rate_button">Change rate</string>
+    <string name="download_rate_button">Download rate</string>
+    <string name="ok_button">Ok</string>
+    <string name="apply_label">Apply</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="welcome_string">Welcome to Euro Calc!</string>
+    <string name="rate_enquiry_method">Please select preferred update method:</string>
+    <string name="internet_channel">Internet</string>
+    <string name="manual_channel">Manual</string>
+    
+     <string-array name="euro_countries">
+    	<item>Germany</item>
+		<item>Austria</item>
+		<item>Slovakia</item>
+		<item>Spain</item>    
+		<item>Greece</item>
+		<item>France</item>
+		<item>Italy</item>
+		<item>Belgium</item>
+		<item>Netherland</item>
+		<item>Ireland</item>
+		<item>Portugal</item>
+		<item>Luxembourg</item>
+		<item>Cyprus</item>
+		<item>Estonia</item>
+		<item>Malta</item>
+		<item>Finland</item>
+		<item>Slovenia</item>
+    </string-array>
+</resources>

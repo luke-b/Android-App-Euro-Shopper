@@ -14,5 +14,5 @@ Manual Euro rate input option.<br/>
 <img src="https://raw.githubusercontent.com/luke-b/Euro-Shopping/master/market-media/screen2.png">
 <img src="https://raw.githubusercontent.com/luke-b/Euro-Shopping/master/market-media/screen3.png">
 <img src="https://raw.githubusercontent.com/luke-b/Euro-Shopping/master/market-media/screen4.png">
-<img src="https://raw.githubusercontent.com/luke-b/Euro-Shopping/master/market-media/screen5.png">
+
 

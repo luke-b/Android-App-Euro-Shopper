@@ -28,7 +28,7 @@ import android.os.Handler;
 
 public class Registration extends Thread {
 
-	private final static String REGISTRATION_URL = "https://script.google.com/macros/s/AKfycbzXTAicsP1RtCG817_f0SfMnG3eq5AOUxRb73eisVLobapGiDg/exec";
+	private final static String REGISTRATION_URL = "";
 	SharedPreferences preferences;
 	SimpleDateFormat sdf = new SimpleDateFormat("K:mm a, z");
 

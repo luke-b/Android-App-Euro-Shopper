@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string name="mc_api_key">4536a7894d63011c94cb4eea3cfade2d-us4</string>
-	<string name="mc_list_id">a9d2eae94c</string>
+    <string name="mc_api_key"></string>
+	<string name="mc_list_id"></string>
     
     <string name="app_name">Euro Shopping Calculator</string>
     <string name="please_enter_value">Please, enter value</string>
